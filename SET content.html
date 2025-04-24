@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="content">This text will change when you hover on textchange btn</div>
+
+    <p class="html">Click on the change html btn to see the html structure will change</p>
+
+    <input type="text" value="click the changeinput" class="inp">
+    <br><br>
+
+    <button id="btn1">Text/chnage</button>
+
+    <button id="btn2">Chnage/html</button>
+
+    <button id="btn3">Chnage/inp</button>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#btn1').hover(function() {
+                $('.content').text("hello sir thanky for hover me ");
+            });
+            $('#btn2').click(function() {
+                $('.html').html("<h1 style='color:red;'>Now you can see how much it changes</h1>");
+            });
+            $("#btn3").click(function() {
+                $('.inp').val("hello sir ");
+            });
+        })
+    </script>
+</body>
+</html>

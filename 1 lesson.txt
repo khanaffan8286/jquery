@@ -1,0 +1,31 @@
+ 22/04/2025  
+
+1. Click on event to see the console
+
+2. Hide on event to hide an element
+
+3. This event to hide or click on that you wanted to click
+
+4.There are three main type of selectors
+   1. element 
+   2. class
+   3. id 
+
+5. Events in jquery
+  1. Mouse Event = click , doubleclick , mouseenter , mouseleave ,hover
+  2. keyboardevent = keypress, keyup , keydown,
+  3. formevents  = submit , change , focus ,blur
+  4. document/window event = load , resize , scroll
+
+6. Effects (fade , slide , animate)
+  1. fadeIn 
+  2. fadeOut
+  3. fadeToggele
+
+  1. slideUp
+  2. slideDown
+  3. slideToggle
+
+7. stop()
+
+

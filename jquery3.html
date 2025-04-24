@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <form action="">
+    <input type="text" placeholder="name">
+    <input type="password" id="pass" placeholder="password">
+    <button type="button" onclick="passWordshow()">hide/show</button>
+    <button type="submit">login</button>
+  </form>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+  <script>
+    let passhide = false;
+
+    function passWordshow() {
+      let pass = $('#pass');
+
+      if (!passhide) {
+        pass.attr('type', 'text');
+        passhide = true;
+      } else {
+        pass.attr('type', 'password');
+        passhide = false;
+      }
+    }
+  </script>
+</body>
+</html>

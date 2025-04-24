@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="text">hello <b>good</b> morning  <br> How are you</p>
+
+    <input type="text" value="hello this is an input" class="inp"><br>
+
+    <button id="btn">click for text</button>
+
+    <button id="btn1">click for html</button>
+
+    <button id="btn2">hover me to see the message </button>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#btn').click(function() {
+                alert("text: " + $('.text').text());
+            });
+        });
+
+        $(document).ready(function() {
+            $("#btn1").click(function() {
+                alert("html: " + $('.text').html());
+            });
+        });
+
+        $(document).ready(function() {
+            $('#btn2').hover(function(){
+                alert("see: " + $('.inp').val());
+            })
+        })
+
+
+    </script>
+</body>
+</html>

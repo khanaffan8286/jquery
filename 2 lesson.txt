@@ -1,0 +1,26 @@
+23/04/2025
+
+1. password show and hide using .attr('text', 'pass');
+
+2. GET content  showing element or text in alert message using (.text()
+.html() .val() .attr(href()) )
+
+3. SET content (using to changing the content)
+(same to get .text(""))
+
+4. jqueryadd (.append() .before() .after() .remove() 
+to remove the text.empty())
+
+5. jqueryclass (.addClass() .removeClass() .toggleClass()
+.css() )
+
+6. Dimension width()
+height()
+innerWidth()
+innerHeight()
+outerWidth()
+outerHeight()
+
+7. Ajex get/post
+
+
